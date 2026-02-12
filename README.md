@@ -39,9 +39,38 @@ I learned:
 
 ---
 
-## 📅 Day 3: Coming Soon ⏳
+## 📅 Day 3: Conditional Rendering in React
 
-Tomorrow, I will continue learning more advanced React concepts and build better components.
+On Day 3, I focused on **conditional rendering** and learned how to handle logic inside components:
+
+- Using **if/else statements**
+- Using **switch statements**
+- Using **ternary operators**
+- Practical examples of rendering different content based on conditions
+
+---
+
+## 📅 Day 4: Props & State Management
+
+### 🧩 Part 1: Props in React
+I learned multiple ways to work with props:
+
+- 3 different ways to pass props
+- Setting **default values** for props
+- Using **objects and classes** in props
+
+### ⚡ Part 2: State Management
+I learned **state management** using `useState` hook:
+
+- Understanding `useState` basics
+- Hands-on practice through **5 different scenario examples**
+- Complete understanding of managing state in functional components
+
+---
+
+## 📅 Day 5: Coming Soon ⏳
+
+Tomorrow, I will continue learning more advanced React concepts and build more interactive components.
 
 Stay tuned for updates!
 
