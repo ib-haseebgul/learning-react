@@ -1,0 +1,47 @@
+import reactLogo from './assets/react.svg'
+import './App.css'
+import Components_Learn from './Components_Learn'
+import ModuleCSS from './ModuleCSS'
+import Functions from './Functions'
+import Classes_Objects from './assets/Classes_Objects'
+import './External.css'
+import If_Else from './If_Else'
+import Props_in_React from './Props_in_React'
+function App() {
+  //  const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
+  // const hobbies = ["Code","Eat","Sleep","Repeat"]                   Use of array in Props
+  const obj= { Position:"Ist", Class: 8 , score :98}
+  return (
+        <>
+          <h1 style={{color:"orange",fontSize:40}}>Hi iam Learning React JS</h1>
+          <Components_Learn />
+          <img src={reactLogo} width="150px" height="150px"/>
+          <h3 className='test'>This is for External CSS</h3>
+          <ModuleCSS />
+          <Functions />
+          <Classes_Objects />
+          <If_Else />
+                    {/* First Method of printing props
+          <Props_in_React part_1=" Props Example" part_2=" Printing Props"/> */}
+
+                    {/*  Second Method of printing props
+          <Props_in_React name="Abdullah" age = {25} city="Lahore" /> */}
+
+                    {/* Third Method of printing props
+          <Props_in_React name="Ayesha" gender="female" /> */}
+                          
+                    {/* Setting default value of prop
+          <Props_in_React name="Ayesha"  />  */}
+
+                     {/* Caling function in props
+          <Props_in_React label="Click Me" handleClick={alert_message} />   */}
+                     
+                     {/*  Use of array in Props
+          <Props_in_React hobbies={hobbies} /> */}
+
+          <Props_in_React obj={obj} />
+        </>    
+  )
+  
+}
+export default App
