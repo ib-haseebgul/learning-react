@@ -10,9 +10,9 @@ const handleDoubleClick=()=> console.log("Paragraph is Double Clicked")
     return(
         <div>
             <button onClick={handleClick}>Click Me</button>
-            <button onMouseOver={()=> alert("The Mouse is over the Button!")}>Hover Me</button><br /><br />  
-            <p onMouseOver={handleMouseOver} onDoubleClick={handleDoubleClick}>Paragraph to test Multiple Events.On Mouse Hover & On DoubleClick</p><br /><br />
-            <input type="text" onChange={handleChange}placeholder="Write Something"></input><br /><br /><br /><br /><br />
+            <button onMouseOver={()=> alert("The Mouse is over the Button!")}>Hover Me</button><br />  
+            <p onMouseOver={handleMouseOver} onDoubleClick={handleDoubleClick}>Paragraph to test Multiple Events.On Mouse Hover & On DoubleClick</p><br />
+            <input type="text" onChange={handleChange}placeholder="Write Something"></input><br />
         
         </div>
     );

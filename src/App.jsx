@@ -1,15 +1,19 @@
 import reactLogo from './assets/react.svg'
-import './App.css'
+ import './App.css'
 import Components_Learn from './Components_Learn'
 import ModuleCSS from './ModuleCSS'
 import Functions from './Functions'
-import Classes_Objects from './assets/Classes_Objects'
+import Classes_Objects from './Classes_Objects'
 import './External.css'
 import If_Else from './If_Else'
 import Props_in_React from './Props_in_React'
+import State_Manag_Examples1 from './State_Manag_Examples1'
+import State_Manag_Examples2 from './State_Manag_Examples2'
+import State_Manag_Examples3 from './State_Manag_Examples3'
+import State_Manag_Examples4 from './State_Manag_Examples4'
 function App() {
   //  const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
-  // const hobbies = ["Code","Eat","Sleep","Repeat"]                   Use of array in Props
+  // const hobbies = ["Code","Eat","Sleep","Repeat"]                    Use of array in Props
   const obj= { Position:"Ist", Class: 8 , score :98}
   return (
         <>
@@ -40,6 +44,10 @@ function App() {
           <Props_in_React hobbies={hobbies} /> */}
 
           <Props_in_React obj={obj} />
+          <State_Manag_Examples1 /><br/ >
+          <State_Manag_Examples2 /><br />
+          <State_Manag_Examples3 /><br />
+          <State_Manag_Examples4 />
         </>    
   )
   

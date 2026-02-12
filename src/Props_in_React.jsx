@@ -78,11 +78,12 @@
 // }
 
 
+//                Use of Objects in Props 
 
 export default function Props_in_React({obj}){
     return(
         <div>
-            <h2>Below is the use of objects in Props</h2>
+            <h1>Below is the use of objects in Props</h1>
             <ul>{Object.entries(obj).map(([object,index])=>(
                 <li key={object}>{object} - {index} </li>
             ))}</ul>
