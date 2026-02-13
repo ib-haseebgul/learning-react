@@ -68,7 +68,17 @@ I learned **state management** using `useState` hook:
 
 ---
 
-## 📅 Day 5: Coming Soon ⏳
+## 📅 Day 5: Form Creation In React
+
+On Day 5, I learned how to craete a forms in react :
+
+- How to craete Simple Form
+- How to create Advance Forms
+- How to craete Form when there are multiple fields like text input, radio, checkbox etc...
+
+---
+
+## 📅 Day 6: Coming Soon ⏳
 
 Tomorrow, I will continue learning more advanced React concepts and build more interactive components.
 
