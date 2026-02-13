@@ -18,7 +18,7 @@ export default function State_Manag_Examples4(){
             <p>Student: {student.Name}</p>
             <p>Class: {student.Class}</p>
             <p>Age: {student.Age}</p>
-            <button onClick={()=> setStudent({...student , Age : 20})}>Click Me to change age</button>
+            <button onClick={()=> setStudent({...student , Age : student.Age + 1})}>Click Me to change age</button>
         </div>
     )
 }
