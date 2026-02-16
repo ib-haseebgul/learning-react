@@ -13,6 +13,8 @@ import State_Manag_Examples3 from './State_Manag_Examples3'
 import State_Manag_Examples4 from './State_Manag_Examples4'
 import Form_Create_Simple from './Form_Create_Simple'
 import Form_Create_Advance from './Form_Create_Advance'
+import UseEffect_Simp_Exp_1 from './UseEffect_Simp_Exp_1'
+import UseEffect_Simp_Exp_2 from './UseEffect_Simp_Exp_2'
 function App() {
   //  const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
   // const hobbies = ["Code","Eat","Sleep","Repeat"]                    Use of array in Props
@@ -51,7 +53,9 @@ function App() {
           <State_Manag_Examples3 /><br />
           <State_Manag_Examples4 /><br />
           <Form_Create_Simple /><br />
-          <Form_Create_Advance />
+          <Form_Create_Advance /><br />
+          <UseEffect_Simp_Exp_1 /><br />
+          <UseEffect_Simp_Exp_2 /> 
           
         </>    
   )
