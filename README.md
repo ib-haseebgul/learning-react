@@ -78,7 +78,17 @@ On Day 5, I learned how to craete a forms in react :
 
 ---
 
-## 📅 Day 6: Coming Soon ⏳
+## 📅 Day 6: useEffect In React
+
+On Day 5, I learned how to use useEffect in react :
+
+- Purpose of useEffect
+- How to use UseEffect
+- 2 Real life Examles using useEffect like API`s data fetching
+
+---
+
+## 📅 Day 7: Coming Soon ⏳
 
 Tomorrow, I will continue learning more advanced React concepts and build more interactive components.
 
