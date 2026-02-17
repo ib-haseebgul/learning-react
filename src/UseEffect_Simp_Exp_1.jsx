@@ -10,7 +10,6 @@ function UseEffect_Simp_Exp_1() {
 
         return () => {
             clearInterval(interval)
-            console.log("Timer Cleared.")
         }
     }, [])
 
