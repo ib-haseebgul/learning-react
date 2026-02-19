@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom"
 export default function Home(){
     const navigate =useNavigate();
     const handleClick=()=>{
-        navigate("/About")
+        navigate("/About/10")
     }
     return(
         <div>

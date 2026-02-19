@@ -20,6 +20,8 @@ import Home from './Home'
 import About from './About'
 import Products from './Products'
 import Laptops from './Laptops'
+import UseEffectEvent_Example_1 from './UseEffectEvent_Example_1'
+import UseEffectEvent_Example_2 from './UseEffectEvent_Example_2'
 function App() {
   //  const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
   // const hobbies = ["Code","Eat","Sleep","Repeat"]                    Use of array in Props
@@ -39,7 +41,7 @@ function App() {
         <nav>
             <Link to ="./Home">Home | </Link>
             <Link to ="./About/10">About | </Link>
-            <Link to ="./Products/10">Products</Link>
+            <Link to ="./Products">Products</Link>
         </nav>
           <Routes>
             <Route path="/Home" element={<Home />} />
@@ -87,7 +89,10 @@ function App() {
             <Form_Create_Advance /><br />
             <UseEffect_Simp_Exp_1 /><br />
             <UseEffect_Simp_Exp_2 /> 
-          
+            <h3>---------------------------Below is the example 1 of useEffectEent Hook--------------</h3>
+            <UseEffectEvent_Example_1 />
+             <h3>-----------------Below is the example 2 of useEffectEent Hook view console--------------</h3>
+            <UseEffectEvent_Example_2 />
         </>    
   )
   
