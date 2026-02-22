@@ -1,3 +1,5 @@
+![Alt](https://repobeats.axiom.co/api/embed/d3d64208ab467222025354037d0682a5430490f0.svg "Repobeats analytics image")
+
 # React Learning Journey 🚀
 
 This repository documents my day-by-day progress while learning **React**.  
