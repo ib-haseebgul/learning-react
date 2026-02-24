@@ -20,10 +20,11 @@ import Home from './Home'
 import About from './About'
 import Products from './Products'
 import Laptops from './Laptops'
-import UseEffectEvent_Example_1 from './UseEffectEvent_Example_1'
-import UseEffectEvent_Example_2 from './UseEffectEvent_Example_2'
+// import UseEffectEvent_Example_1 from './UseEffectEvent_Example_1'
+// import UseEffectEvent_Example_2 from './UseEffectEvent_Example_2'
 import UseReducer_Example_1 from './UseReducer_Examp_1'
 import UseReducer_Example_2 from './UseReducer_Example_2'
+import UseMemo_Examp from './UseMemo_Examp'
 function App() {
   //  const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
   // const hobbies = ["Code","Eat","Sleep","Repeat"]                    Use of array in Props
@@ -93,11 +94,12 @@ function App() {
             <UseEffect_Simp_Exp_1 /><br />
             <UseEffect_Simp_Exp_2 /> 
             <h3>---------------------------Below is the example 1 of useEffectEent Hook--------------</h3>
-            <UseEffectEvent_Example_1 />
+            {/* <UseEffectEvent_Example_1 />
              <h3>-----------------Below is the example 2 of useEffectEent Hook view console--------------</h3>
-            <UseEffectEvent_Example_2 />
+            <UseEffectEvent_Example_2 /> */}
             <UseReducer_Example_1 />
             <UseReducer_Example_2 />
+            <UseMemo_Examp />
         </>    
   )
   
