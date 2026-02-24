@@ -1,3 +1,5 @@
+![Alt](https://repobeats.axiom.co/api/embed/d3d64208ab467222025354037d0682a5430490f0.svg "Repobeats analytics image")
+
 # React Learning Journey 🚀
 
 This repository documents my day-by-day progress while learning **React**.  
@@ -80,7 +82,7 @@ On Day 5, I learned how to craete a forms in react :
 
 ## 📅 Day 6: useEffect In React
 
-On Day 5, I learned how to use useEffect in react :
+On Day 6, I learned how to use useEffect in react :
 
 - Purpose of useEffect
 - How to use UseEffect
@@ -88,7 +90,36 @@ On Day 5, I learned how to use useEffect in react :
 
 ---
 
-## 📅 Day 7: Coming Soon ⏳
+## 📅 Day 7: Routers In React
+
+On Day 7, I learned how to use routers in react :
+
+- Use of BrowserRouter
+- How to use Routes & Route
+- useNavigation
+- use of Params
+- Use of Link
+- Nestsed Routes
+
+---
+
+## 📅 Day 8: Expense Tracker Project in React
+
+- Link: https://github.com/ib-haseebgul/expense-tracker-React-Project
+
+---
+
+## 📅 Day 9: useEffectEvent In React
+
+On Day 9, I learned how to use routers in react :
+
+- Use of useEffectEvent Hook
+- How to use it with useEffect Hook
+- What is the benefit of using useEffectEvent Hook
+
+---
+
+## 📅 Day 8: Coming Soon ⏳
 
 Tomorrow, I will continue learning more advanced React concepts and build more interactive components.
 
