@@ -22,10 +22,13 @@ import Products from './Products'
 import Laptops from './Laptops'
 import UseEffectEvent_Example_1 from './UseEffectEvent_Example_1'
 import UseEffectEvent_Example_2 from './UseEffectEvent_Example_2'
+import UseReducer_Example_1 from './UseReducer_Examp_1'
+import UseReducer_Example_2 from './UseReducer_Example_2'
 function App() {
   //  const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
   // const hobbies = ["Code","Eat","Sleep","Repeat"]                    Use of array in Props
   const obj= { Position:"Ist", Class: 8 , score :98}
+  
   const PageNotFound =()=>{
     return <h3>Page Not Found</h3>
     
@@ -93,6 +96,8 @@ function App() {
             <UseEffectEvent_Example_1 />
              <h3>-----------------Below is the example 2 of useEffectEent Hook view console--------------</h3>
             <UseEffectEvent_Example_2 />
+            <UseReducer_Example_1 />
+            <UseReducer_Example_2 />
         </>    
   )
   
