@@ -24,7 +24,8 @@ import Laptops from './Laptops'
 // import UseEffectEvent_Example_2 from './UseEffectEvent_Example_2'
 import UseReducer_Example_1 from './UseReducer_Examp_1'
 import UseReducer_Example_2 from './UseReducer_Example_2'
-import UseMemo_Examp from './UseMemo_Examp'
+// import UseMemo_Examp from './UseMemo_Examp'
+import UseCallback_Examp from './UseCallback_Examp'
 function App() {
   //  const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
   // const hobbies = ["Code","Eat","Sleep","Repeat"]                    Use of array in Props
@@ -99,7 +100,8 @@ function App() {
             <UseEffectEvent_Example_2 /> */}
             <UseReducer_Example_1 />
             <UseReducer_Example_2 />
-            <UseMemo_Examp />
+            {/* <UseMemo_Examp /> */}
+            <UseCallback_Examp />
         </>    
   )
   
