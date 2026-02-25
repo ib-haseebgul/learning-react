@@ -26,6 +26,7 @@ import UseReducer_Example_1 from './UseReducer_Examp_1'
 import UseReducer_Example_2 from './UseReducer_Example_2'
 // import UseMemo_Examp from './UseMemo_Examp'
 import UseCallback_Examp from './UseCallback_Examp'
+import UseLayoutEffect_Examp from './UseLAyoutEffect_Examp'
 function App() {
   //  const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
   // const hobbies = ["Code","Eat","Sleep","Repeat"]                    Use of array in Props
@@ -102,6 +103,7 @@ function App() {
             <UseReducer_Example_2 />
             {/* <UseMemo_Examp /> */}
             <UseCallback_Examp />
+            <UseLayoutEffect_Examp />
         </>    
   )
   
