@@ -11,10 +11,10 @@ Each day focuses on new concepts with hands-on practice.
 
 On Day 1, I learned the fundamentals of React, including:
 
-- What React is and how it works
-- How to create **components**
-- How to **merge multiple components** into the main component
-- Understanding component structure and reusability
+- What React is and how it works  
+- How to create **components**  
+- How to **merge multiple components** into the main component  
+- Understanding component structure and reusability  
 
 ---
 
@@ -57,81 +57,99 @@ On Day 3, I focused on **conditional rendering** and learned how to handle logic
 ### 🧩 Part 1: Props in React
 I learned multiple ways to work with props:
 
-- 3 different ways to pass props
-- Setting **default values** for props
-- Using **objects and classes** in props
+- 3 different ways to pass props  
+- Setting **default values** for props  
+- Using **objects and classes** in props  
 
 ### ⚡ Part 2: State Management
 I learned **state management** using `useState` hook:
 
-- Understanding `useState` basics
-- Hands-on practice through **5 different scenario examples**
-- Complete understanding of managing state in functional components
+- Understanding `useState` basics  
+- Hands-on practice through **5 different scenario examples**  
+- Complete understanding of managing state in functional components  
 
 ---
 
 ## 📅 Day 5: Form Creation In React
 
-On Day 5, I learned how to craete a forms in react :
+On Day 5, I learned how to create forms in React:
 
-- How to craete Simple Form
-- How to create Advance Forms
-- How to craete Form when there are multiple fields like text input, radio, checkbox etc...
+- How to create **Simple Form**  
+- How to create **Advanced Forms**  
+- How to create forms with multiple fields like text input, radio, checkbox, etc.  
 
 ---
 
 ## 📅 Day 6: useEffect In React
 
-On Day 6, I learned how to use useEffect in react :
+On Day 6, I learned how to use `useEffect` in React:
 
-- Purpose of useEffect
-- How to use UseEffect
-- 2 Real life Examles using useEffect like API`s data fetching
+- Purpose of `useEffect`  
+- How to use `useEffect`  
+- 2 real-life examples using `useEffect` like API data fetching  
 
 ---
 
 ## 📅 Day 7: Routers In React
 
-On Day 7, I learned how to use routers in react :
+On Day 7, I learned how to use routers in React:
 
-- Use of BrowserRouter
-- How to use Routes & Route
-- useNavigation
-- use of Params
-- Use of Link
-- Nestsed Routes
+- Use of `BrowserRouter`  
+- How to use `Routes` & `Route`  
+- `useNavigation`  
+- Use of `Params`  
+- Use of `Link`  
+- Nested Routes  
 
 ---
 
 ## 📅 Day 8: Expense Tracker Project in React
 
-- Link: https://github.com/ib-haseebgul/expense-tracker-React-Project
+- Link: https://github.com/ib-haseebgul/expense-tracker-React-Project  
 
 ---
 
 ## 📅 Day 9: useEffectEvent In React
 
-On Day 9, I learned how to use routers in react :
+On Day 9, I learned about `useEffectEvent` in React:
 
-- Use of useEffectEvent Hook
-- How to use it with useEffect Hook
-- What is the benefit of using useEffectEvent Hook
+- Use of `useEffectEvent` Hook  
+- How to use it with `useEffect` Hook  
+- Benefits of using `useEffectEvent` Hook  
 
 ---
 
-## 📅 Day 8: Coming Soon ⏳
+## 📅 Day 10: useCallback & useLayoutEffect
 
-Tomorrow, I will continue learning more advanced React concepts and build more interactive components.
+On Day 10, I learned two important optimization and lifecycle-related hooks in React.
 
-Stay tuned for updates!
+### ⚡ Part 1: useCallback Hook
+
+I learned:
+
+- What `useCallback` is and why we use it  
+- How `useCallback` helps in **performance optimization**  
+- Preventing unnecessary re-renders  
+- Difference between `useCallback` and `useMemo`  
+- Practical example using `useCallback` with child components  
+
+### 🧩 Part 2: useLayoutEffect Hook
+
+I learned:
+
+- What `useLayoutEffect` is  
+- Difference between `useEffect` and `useLayoutEffect`  
+- When to use `useLayoutEffect`  
+- How it runs before the browser paints the screen  
+- Practical example measuring DOM elements using `useRef`  
 
 ---
 
 ## 🛠️ Tech Stack
-- React
-- JavaScript (ES6+)
-- JSX
-- CSS
+- React  
+- JavaScript (ES6+)  
+- JSX  
+- CSS  
 
 ---
 
