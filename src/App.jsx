@@ -1,7 +1,8 @@
-import { lazy, Suspense } from 'react'
-import { BrowserRouter , Route, Link, Routes, useParams} from 'react-router-dom'
-// import CustomHook_Examp_1 from './CustomHook_Examp_1'
-// import CustomHook_Example_2 from './CustomHook_Example_2'
+// import { lazy, Suspense } from 'react'
+// import { BrowserRouter , Route, Link, Routes, useParams} from 'react-router-dom'
+// import UseMemo from './UseMemo'
+// // import CustomHook_Examp_1 from './CustomHook_Examp_1'
+// // import CustomHook_Example_2 from './CustomHook_Example_2'
 // import ApiTest from './ApiTest'
 // import reactLogo from './assets/react.svg'
 // //import './App.css'
@@ -18,14 +19,14 @@ import { BrowserRouter , Route, Link, Routes, useParams} from 'react-router-dom'
 // import State_Manag_Examples4 from './State_Manag_Examples4'
 // import Form_Create_Simple from './Form_Create_Simple'
 // import Form_Create_Advance from './Form_Create_Advance'
-// import UseEffect_Simp_Exp_1 from './UseEffect_Simp_Exp_1'
-// import UseEffect_Simp_Exp_2 from './UseEffect_Simp_Exp_2'
-const Home =lazy(()=> import("./Home"))
-const About =lazy(()=> import("./About"))
-const Products =lazy(()=> import("./Products"))
-const Laptops =lazy(()=> import("./Laptops"))
-// import Home from './Home'
-// import About from './About'
+// // import UseEffect_Simp_Exp_1 from './UseEffect_Simp_Exp_1'
+// // import UseEffect_Simp_Exp_2 from './UseEffect_Simp_Exp_2'
+// const Home =lazy(()=> import("./Home"))
+// const About =lazy(()=> import("./About"))
+// const Products =lazy(()=> import("./Products"))
+// const Laptops =lazy(()=> import("./Laptops"))
+// // import Home from './Home'
+// // import About from './About'
 // import Products from './Products'
 // import Laptops from './Laptops'
 // import UseEffectEvent_Example_1 from './UseEffectEvent_Example_1'
@@ -34,23 +35,30 @@ const Laptops =lazy(()=> import("./Laptops"))
 // import UseReducer_Example_2 from './UseReducer_Example_2'
 // import UseMemo_Examp from './UseMemo_Examp'
 // import UseCallback_Examp from './UseCallback_Examp'
+
+import ErrorBoundary from "./ErrorBoundry"
+import ErrorTesting from "./ErrorsTesting"
+
 // import UseLayoutEffect_Examp from './UseLAyoutEffect_Examp'
 function App() {
-//    const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
-//   const hobbies = ["Code","Eat","Sleep","Repeat"]                    Use of array in Props
-//   const obj= { Position:"Ist", Class: 8 , score :98}
+{/*   const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
+  const hobbies = ["Code","Eat","Sleep","Repeat"]                    Use of array in Props
+
+    const obj= { Position:"Ist", Class: 8 , score :98}
   
   const PageNotFound =()=>{
     return <h3>Page Not Found</h3>
     
   }
-//   function About() {
-//       const {id} =useParams();
-//       return <h2>User Profile for ID is: {id}</h2>
+  function About() {
+      const {id} =useParams();
+      return <h2>User Profile for ID is: {id}</h2>
       
-//     }
+    }
+*/}
   return (
         <>
+        {/*
          <BrowserRouter>
         <nav>
             <Link to ="./Home">Home | </Link>
@@ -68,7 +76,7 @@ function App() {
           </Routes>
           </Suspense>
         </BrowserRouter>
-         {/* <h3>---------------------------------Above are the Router Examples "Lecture Day 7"----------------------------------</h3>
+          <h3>---------------------------------Above are the Router Examples "Lecture Day 7"----------------------------------</h3>
           
             <h1 style={{color:"orange",fontSize:40}}>Hi iam Learning React JS</h1>
             <Components_Learn />
@@ -122,6 +130,9 @@ function App() {
             <CustomHook_Examp_1 />
             <CustomHook_Example_2 />
             <ApiTest /> */}
+            <ErrorBoundary>
+            <ErrorTesting />
+            </ErrorBoundary>
         </>    
   )
   
