@@ -37,9 +37,7 @@ import './App.css'
 // import UseCallback_Examp from './UseCallback_Examp'
 // import ErrorBoundary from "./ErrorBoundry"
 // import ErrorTesting from "./ErrorsTesting"
-
-import Form from "./Form"
-
+import FormI from './FormI'
 // import UseLayoutEffect_Examp from './UseLAyoutEffect_Examp'
 function App() {
 {/*   const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
@@ -134,7 +132,7 @@ function App() {
             <ErrorBoundary>
             <ErrorTesting />
             </ErrorBoundary> */}
-            <Form />
+            <FormI />
         </>    
   )
   
