@@ -145,6 +145,46 @@ I learned:
 
 ---
 
+## 📅 Day 11: Custom Hooks
+
+On Day 11, I learned how to create **custom hooks** in React:
+
+- What **custom hooks** are and why we need them  
+- How to abstract reusable logic using custom hooks  
+- Creating custom hooks for **form handling** and **API calls**  
+- Best practices for naming and structuring custom hooks  
+
+---
+
+## 📅 Day 12: Lazy Loading Concept
+
+On Day 12, I explored **lazy loading** in React:
+
+- What **lazy loading** is and why it improves performance  
+- Using `React.lazy()` and `Suspense` for code splitting  
+- Practical examples of lazy-loading components and images  
+- Handling fallback UI during loading  
+
+---
+
+## 📅 Day 13: Error Boundaries & Advanced Forms (Form-Hook Library Part I)
+
+### ⚡ Part 1: Error Boundaries
+
+- Understanding **Error Boundaries** in React  
+- How to catch JavaScript errors in components  
+- How to show fallback UI when an error occurs  
+- Practical implementation with class-based components  
+
+### 🧩 Part 2: Advanced Form Creation with Form-Hook Library (Part I)
+
+- Introduction to **React Hook Form** library  
+- Creating advanced forms with validation  
+- Handling input fields, checkboxes, radio buttons, and select elements  
+- Understanding `register`, `handleSubmit`, and `formState`  
+
+---
+
 ## 🛠️ Tech Stack
 - React  
 - JavaScript (ES6+)  
