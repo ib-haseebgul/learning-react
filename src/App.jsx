@@ -5,12 +5,12 @@
 // import CustomHook_Example_2 from './CustomHook_Example_2'
 // import ApiTest from './ApiTest'
 // import reactLogo from './assets/react.svg'
-import './App.css'
+// import './App.css'
 // import Components_Learn from './Components_Learn'
 // import ModuleCSS from './ModuleCSS'
 // import Functions from './Functions'
 // import Classes_Objects from './Classes_Objects'
-// import './External.css' 
+// import './External.css'
 // import If_Else from './If_Else'
 // import Props_in_React from './Props_in_React'
 // import State_Manag_Examples1 from './State_Manag_Examples1'
@@ -37,10 +37,15 @@ import './App.css'
 // import UseCallback_Examp from './UseCallback_Examp'
 // import ErrorBoundary from "./ErrorBoundry"
 // import ErrorTesting from "./ErrorsTesting"
-import FormII from './FormII'
+// import FormI from './FormI'
+// import FormII from './FormII'
+
+import React_Select from "./React_Select";
+
 // import UseLayoutEffect_Examp from './UseLAyoutEffect_Examp'
 function App() {
-{/*   const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
+  {
+    /*   const alert_message=()=> alert("The Prop is calling a function")  this is a function in props
   const hobbies = ["Code","Eat","Sleep","Repeat"]                    Use of array in Props
 
     const obj= { Position:"Ist", Class: 8 , score :98}
@@ -54,10 +59,11 @@ function App() {
       return <h2>User Profile for ID is: {id}</h2>
       
     }
-*/}
+*/
+  }
   return (
-        <>
-        {/*
+    <>
+      {/*
          <BrowserRouter>
         <nav>
             <Link to ="./Home">Home | </Link>
@@ -131,10 +137,11 @@ function App() {
             <ApiTest /> 
             <ErrorBoundary>
             <ErrorTesting />
-            </ErrorBoundary> */}
-            <FormII />
-        </>    
-  )
-  
+            </ErrorBoundary> 
+            <FormI />
+            <FormII /> */}
+      <React_Select />
+    </>
+  );
 }
-export default App
+export default App;
