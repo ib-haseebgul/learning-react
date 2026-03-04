@@ -185,6 +185,41 @@ On Day 12, I explored **lazy loading** in React:
 
 ---
 
+## 📅 Day 14: Advanced Form Fields
+
+- Working with advanced input types:
+  - Checkbox
+  - Date picker
+  - Radio buttons
+  - Select dropdown
+- Managing complex form state
+- Best practices for form structure
+
+---
+
+## 📅 Day 15: Form Enhancement & Styling
+
+### 🧩 Part 1: Reset & Submission Methods
+- Using `reset()` method
+- Understanding `isSubmitted`
+- Handling successful form submission
+
+### 🧩 Part 2: Yup Form Validation Library
+- Introduction to **Yup**
+- Schema-based validation
+- Integrating Yup with React Hook Form
+
+### 🎨 Part 3: Tailwind CSS & Prettier
+- Styling forms using **Tailwind CSS**
+- Setting up **Prettier** in the project
+- Formatting code with **Prettier**
+- Writing clean, consistent, and formatted code  
+
+### 🎨 Part 4: Advanced Select Components
+- Using **Select** component  
+- Using **CreatableSelect** for dynamic options  
+- Using **AsyncSelect** for fetching options asynchronously
+
 ## 🛠️ Tech Stack
 - React  
 - JavaScript (ES6+)  
